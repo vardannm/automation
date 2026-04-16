@@ -32,5 +32,5 @@ def test_example(page: Page) -> None:
     page1.locator("#issueDateTo").click()
     page1.get_by_text("14").nth(2).click()
     page1.get_by_role("button", name="Արտածել").click()
-
+    page1.get_by_role("button", name="Արտածել").click()
 
