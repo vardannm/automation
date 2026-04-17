@@ -15,6 +15,8 @@ function App() {
 <p>Nelli</p>
 
       <p>Elvira</p>
+
+        <p>Ruzan</p>
     </Router>
   );
 }
