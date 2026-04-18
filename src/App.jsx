@@ -20,9 +20,6 @@ function App() {
         <ul>
             <li>A</li>
             <li>B</li>
-<<<<<<< HEAD
-            <li>8</li>
-=======
             <li>C</li>
             <li>D</li>
             <li>Testnew</li>
