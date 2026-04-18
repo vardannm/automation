@@ -25,6 +25,7 @@ function App() {
             <li>B</li>
             <li>C</li>
             <li>D</li>
+            <li>7</li>
         </ul>
 
     </Router>
