@@ -16,10 +16,10 @@ function App() {
 <p>Nelli</p>
 <p>Anzhela</p>
       <p>Elvira</p>
-        "6565656544444444444"
-        "5555555555555555"
-        "5555323323326652"
-        "6666666666666666"
+        <p>Elvira</p>
+        <p>Elvira</p>
+        <p>Elvira</p>
+
 
         <p>Ruzan</p>
         <ul>
