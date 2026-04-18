@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,11 +15,6 @@ function App() {
 <p>Nelli</p>
 <p>Anzhela</p>
       <p>1</p>
-      <p>Elvira</p>
-        "6565656544444444444"
-        "5555555555555555"
-        "5555323323326652"
-        "6666666666666666"
 
         <p>Ruzan</p>
         <ul>
@@ -37,7 +31,7 @@ function App() {
             <li>TestAu</li>
             <li>Testnew</li>
         </ul>
-
+<p>change1<p/>
     </Router>
   );
 }
