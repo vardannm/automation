@@ -14,7 +14,7 @@ function App() {
 
 <p>Nelli</p>
 <p>Anzhela</p>
-      <p>Elvira</p>
+      <p>1</p>
 
         <p>Ruzan</p>
         <ul>
