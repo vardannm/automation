@@ -20,16 +20,15 @@ function App() {
         <ul>
             <li>A</li>
             <li>B</li>
+<<<<<<< HEAD
+            <li>8</li>
+=======
             <li>C</li>
             <li>D</li>
-            <li>nelli</li>
-            <li>nelli</li>
-            <li>nelli123</li>
-            <li>nelli1564</li>
-            <li>nelli7893</li>
-            <li>Test</li>
-            <li>TestAu</li>
             <li>Testnew</li>
+
+>>>>>>> 55cfa6072f9952e6c18bac756a288c0a197c3b74
+>>>>>>> origin/test
         </ul>
 <p>change1<p/>
     </Router>
