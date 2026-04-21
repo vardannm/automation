@@ -1,0 +1,25 @@
+import re
+from playwright.sync_api import Page, expect
+
+
+def test_example(page: Page) -> None:
+    page.goto("https://uatapp.daniam.am/trade/home/index")
+    page.get_by_role("link").nth(4).click()
+    with page.expect_popup() as page1_info:
+        page.locator("span").nth(4).click()
+    page1 = page1_info.value
+    page1.get_by_role("textbox", name="Ծածկանուն").click()
+    page1.get_by_role("textbox", name="Ծածկանուն").fill("anzhela.khachatryan")
+    page1.get_by_role("textbox", name="Ծածկանուն").press("Tab")
+    page1.get_by_role("textbox", name="Գաղտնաբառ").fill("12345678")
+    page1.get_by_role("button", name="Մուտք").click()
+    page1.locator("#status").select_option("Released")
+    page1.get_by_role("button", name="Որոնել").click()
+    page1.get_by_role("link", name="✏").first.click()
+    with page1.expect_popup() as page2_info:
+        page1.get_by_role("link", name="Բաց թողնումը չեղարկել").click()
+    page2 = page2_info.value
+    page2.get_by_role("button", name="Բաց թողնումը չեղարկել").click()
+    page2.get_by_role("textbox", name="Պարտադիր դաշտ").fill("dsdsdsdsd")
+    page2.get_by_role("button", name="Բաց թողնումը չեղարկել").click()
+    page2.get_by_role("button", name="Այո").click()
