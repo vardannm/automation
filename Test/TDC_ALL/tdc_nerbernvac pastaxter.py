@@ -23,15 +23,13 @@ def test_example(page: Page) -> None:
     page1.locator("#issueDateTo").click()
     page1.get_by_text("20", exact=True).nth(1).click()
     page1.get_by_role("button", name="Արտածել").click()
-
-
     page1.get_by_role("row", name="Հայտարարագրի տեսակ Տեղափոխման/փոխադրման տեսակ").get_by_placeholder("Նշել").click()
     page1.locator("a").filter(has_text="ԱՊՐԱՆՔՆԵՐԻ ՀԱՅՏԱՐԱՐԱԳԻՐ").click()
     page1.locator("#exportType").select_option("ATT_DOCS")
     page1.locator("#issueDate").click()
     page1.get_by_text("1", exact=True).first.click()
     page1.locator("#issueDateTo").click()
-    page1.get_by_text("20", exact=True).nth(1).click()
+    page1.get_by_text("19", exact=True).nth(1).click()
     page1.get_by_role("button", name="Արտածել").click()
     page1.get_by_role("row", name="Հայտարարագրի տեսակ Տեղափոխման/փոխադրման տեսակ").get_by_placeholder("Նշել").click()
     page1.locator("a").filter(has_text="ՄԱՔՍԱՅԻՆ ՄՈՒՏՔԻ ՕՐԴԵՐ").click()
